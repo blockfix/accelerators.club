@@ -1,5 +1,5 @@
 
-# acclerators.club — Web3 & AI Directory
+# accelerators.club — Web3 & AI Directory
 
 Zero-backend, Next.js 14 + Tailwind directory to list Web3 projects, AI startups, and investors.
 Search + filters + local CSV/JSON import (saved to your browser).
@@ -24,4 +24,4 @@ npm run dev
 
 ## Notes
 - No backend. Perfect for a lightweight public directory.
-- You can attach a custom domain `acclerators.club` in Vercel's Dashboard after deploy.
+- You can attach a custom domain `accelerators.club` in Vercel's Dashboard after deploy.

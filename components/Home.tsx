@@ -137,7 +137,7 @@ export default function Home() {
       </section>
 
       <footer className="opacity-80 text-center pb-8">
-        <p className="text-sm">© {new Date().getFullYear()} acclerators.club • Built with Next.js</p>
+        <p className="text-sm">© {new Date().getFullYear()} accelerators.club • Built with Next.js</p>
       </footer>
     </main>
   );
