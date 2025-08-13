@@ -28,7 +28,13 @@ export function ProjectCard({ p }: { p: Project }) {
 export function InvestorCard({ i }: { i: Investor }) {
   const min = i.chequeMinUSD ?? null;
   const max = i.chequeMaxUSD ?? null;
-  const cheque = (min || max) ? `$${(min or 0)/1000}k – $${(max or min or 0)/1000}k` : null;
+  const cheque = min != null || max != null
+    ? min != null && max != null
+      ? `$${min / 1000}k – $${max / 1000}k`
+      : min != null
+        ? `$${min / 1000}k+`
+        : `Up to $${max! / 1000}k`
+    : null;
   return (
     <a href={i.url} target="_blank" rel="noreferrer"
       className="glass block p-5 md:p-6 hover:ring-1 hover:ring-brand-400/60 transition">
