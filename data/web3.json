@@ -1,0 +1,49 @@
+[
+  {
+    "id": "w3-ethlens",
+    "name": "EthLens",
+    "url": "https://example.com/ethlens",
+    "description": "On-chain identity graph & reputation scores for wallets.",
+    "category": "Web3",
+    "chain": "Ethereum",
+    "sector": "Identity",
+    "stage": "Seed",
+    "region": "Global",
+    "tags": [
+      "Reputation",
+      "Graph",
+      "Wallet"
+    ]
+  },
+  {
+    "id": "w3-defi-vaults",
+    "name": "YieldBay",
+    "url": "https://example.com/yieldbay",
+    "description": "Aggregated audited yield vaults with risk tiers.",
+    "category": "Web3",
+    "chain": "Arbitrum",
+    "sector": "DeFi",
+    "stage": "MVP",
+    "region": "India",
+    "tags": [
+      "Stablecoins",
+      "Audited",
+      "Risk"
+    ]
+  },
+  {
+    "id": "w3-agent-market",
+    "name": "AgentChain Market",
+    "url": "https://example.com/agentchain",
+    "description": "Marketplace for autonomous agent services with escrow.",
+    "category": "Web3",
+    "chain": "Base",
+    "sector": "Infra",
+    "stage": "Idea",
+    "region": "Global",
+    "tags": [
+      "Agents",
+      "Escrow"
+    ]
+  }
+]

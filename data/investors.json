@@ -1,0 +1,56 @@
+[
+  {
+    "id": "inv-1",
+    "name": "DeFi Angels Syndicate",
+    "url": "https://example.com/defi-angels",
+    "chequeMinUSD": 50000,
+    "chequeMaxUSD": 250000,
+    "stages": [
+      "Pre-seed",
+      "Seed"
+    ],
+    "focus": [
+      "DeFi",
+      "Infra"
+    ],
+    "region": "Global",
+    "notes": "100+ angels with operator experience."
+  },
+  {
+    "id": "inv-2",
+    "name": "Frontier AI Fund",
+    "url": "https://example.com/frontier-ai",
+    "chequeMinUSD": 200000,
+    "chequeMaxUSD": 1000000,
+    "stages": [
+      "Seed",
+      "Series A"
+    ],
+    "focus": [
+      "Agentic AI",
+      "Infra",
+      "DevTools"
+    ],
+    "region": "US",
+    "notes": "Leads rounds; strong technical diligence."
+  },
+  {
+    "id": "inv-3",
+    "name": "APAC Crypto Ventures",
+    "url": "https://example.com/apac-crypto",
+    "chequeMinUSD": 100000,
+    "chequeMaxUSD": 500000,
+    "stages": [
+      "Pre-seed",
+      "Seed",
+      "Series A"
+    ],
+    "focus": [
+      "L2",
+      "Payments",
+      "Identity"
+    ],
+    "region": "APAC",
+    "notes": "Hands-on with GTM across India & SEA."
+  }
+]

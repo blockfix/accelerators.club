@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ai-evals",
+    "name": "EvalSuite",
+    "url": "https://example.com/evalsuite",
+    "description": "Continuous evals for LLM apps with regression alerts.",
+    "category": "AI",
+    "sector": "DevTools",
+    "stage": "Seed",
+    "region": "India",
+    "tags": [
+      "LLM",
+      "Observability"
+    ]
+  },
+  {
+    "id": "ai-agents",
+    "name": "OpsAgent",
+    "url": "https://example.com/opsagent",
+    "description": "Agentic workflows for support, finance ops, and GTM.",
+    "category": "AI",
+    "sector": "Automation",
+    "stage": "MVP",
+    "region": "APAC",
+    "tags": [
+      "RAG",
+      "Workflows"
+    ]
+  },
+  {
+    "id": "ai-safety",
+    "name": "GuardRails AI",
+    "url": "https://example.com/guardrails",
+    "description": "Policy, safety, and red-team harness for AI apps.",
+    "category": "AI",
+    "sector": "Security",
+    "stage": "Series A+",
+    "region": "Global",
+    "tags": [
+      "Safety",
+      "Compliance"
+    ]
+  }
+]
