@@ -1,0 +1,5 @@
+{
+  "name": "accelerators-club",
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next"
+}
