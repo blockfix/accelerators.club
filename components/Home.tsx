@@ -81,30 +81,32 @@ export default function Home() {
       </header>
 
       <section className="section">
-        <div className="flex flex-col md:flex-row gap-3 md:items-center md:justify-between">
-          <input
-            value={query}
-            onChange={e=>setQuery(e.target.value)}
-            placeholder={`Search ${active.toLowerCase()} by name, tag, sector…`}
-            className="w-full md:w-1/2 px-4 py-3 rounded-xl bg-white/5 border border-white/10 focus:outline-none focus:ring-2 focus:ring-brand-400"
-          />
-          <div className="flex flex-wrap gap-2">
-            <select value={region} onChange={e=>setRegion(e.target.value)} className="pill">
-              {regions.map(r => <option key={r} value={r}>{r}</option>)}
-            </select>
-            {active!=="Investors" ? (
-              <>
-                <select value={stage} onChange={e=>setStage(e.target.value)} className="pill">
-                  {stages.map(s => <option key={s} value={s}>{s}</option>)}
-                </select>
-                <select value={chain} onChange={e=>setChain(e.target.value)} className="pill">
-                  {chains.map(c => <option key={c} value={c}>{c}</option>)}
-                </select>
-                <select value={sector} onChange={e=>setSector(e.target.value)} className="pill">
-                  {sectors.map(s => <option key={s} value={s}>{s}</option>)}
-                </select>
-              </>
-            ) : null}
+        <div className="glass p-4 md:p-6">
+          <div className="flex flex-col md:flex-row gap-3 md:items-center md:justify-between">
+            <input
+              value={query}
+              onChange={e=>setQuery(e.target.value)}
+              placeholder={`Search ${active.toLowerCase()} by name, tag, sector…`}
+              className="w-full md:w-1/2 px-4 py-3 rounded-xl bg-white/5 border border-white/10 focus:outline-none focus:ring-2 focus:ring-brand-400"
+            />
+            <div className="flex flex-wrap gap-2">
+              <select value={region} onChange={e=>setRegion(e.target.value)} className="pill">
+                {regions.map(r => <option key={r} value={r}>{r}</option>)}
+              </select>
+              {active!=="Investors" ? (
+                <>
+                  <select value={stage} onChange={e=>setStage(e.target.value)} className="pill">
+                    {stages.map(s => <option key={s} value={s}>{s}</option>)}
+                  </select>
+                  <select value={chain} onChange={e=>setChain(e.target.value)} className="pill">
+                    {chains.map(c => <option key={c} value={c}>{c}</option>)}
+                  </select>
+                  <select value={sector} onChange={e=>setSector(e.target.value)} className="pill">
+                    {sectors.map(s => <option key={s} value={s}>{s}</option>)}
+                  </select>
+                </>
+              ) : null}
+            </div>
           </div>
         </div>
 
@@ -136,9 +138,11 @@ export default function Home() {
         />
       </section>
 
-      <footer className="opacity-80 text-center pb-8">
-        <p className="text-sm">© {new Date().getFullYear()} accelerators.club • Built with Next.js</p>
-      </footer>
+      <div className="glass p-4 md:p-6 pb-8">
+        <footer className="opacity-80 text-center">
+          <p className="text-sm">© {new Date().getFullYear()} accelerators.club • Built with Next.js</p>
+        </footer>
+      </div>
     </main>
   );
 }
