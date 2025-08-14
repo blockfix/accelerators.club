@@ -30,10 +30,10 @@ export function InvestorCard({ i }: { i: Investor }) {
   const max = i.chequeMaxUSD ?? null;
   const cheque = min != null || max != null
     ? min != null && max != null
-      ? `$${min / 1000}k – $${max / 1000}k`
+      ? `$${(min ?? 0) / 1000}k – $${(max ?? min ?? 0) / 1000}k`
       : min != null
-        ? `$${min / 1000}k+`
-        : `Up to $${max! / 1000}k`
+        ? `$${(min ?? 0) / 1000}k+`
+        : `Up to $${(max ?? min ?? 0) / 1000}k`
     : null;
   return (
     <a href={i.url} target="_blank" rel="noreferrer"
